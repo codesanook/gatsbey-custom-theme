@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import HelloComponent from './HelloComponent'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,6 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <HelloComponent/>
         <footer
           style={{
             marginTop: `2rem`,
