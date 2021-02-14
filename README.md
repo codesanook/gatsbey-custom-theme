@@ -45,3 +45,15 @@
 - Push a new code to develop branch
 - Wait for deployment has done https://github.com/meddbtech/meddbtech.github.io/actions
 - Go to https://meddbtech.github.io/
+
+
+# Add Markdown content
+- `yarn add gatsby-source-filesystem --dev`
+- Add https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/ plugin with `yarn add gatsby-transformer-remark --dev`
+- Add  https://www.gatsbyjs.com/plugins/gatsby-remark-images/ `yarn add gatsby-remark-images --dev`
+- And also add gatsby-plugin-sharp dependency with `yarn add gatsby-plugin-sharp --dev`
+
+
+## TODO
+- single quote
+- semi colon
