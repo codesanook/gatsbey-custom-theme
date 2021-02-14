@@ -53,7 +53,9 @@
 - Add  https://www.gatsbyjs.com/plugins/gatsby-remark-images/ `yarn add gatsby-remark-images --dev`
 - And also add gatsby-plugin-sharp dependency with `yarn add gatsby-plugin-sharp --dev`
 
-
 ## TODO
 - single quote
 - semi colon
+... in GraphQL
+
+
