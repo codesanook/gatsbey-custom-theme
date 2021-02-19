@@ -53,9 +53,31 @@
 - Add  https://www.gatsbyjs.com/plugins/gatsby-remark-images/ `yarn add gatsby-remark-images --dev`
 - And also add gatsby-plugin-sharp dependency with `yarn add gatsby-plugin-sharp --dev`
 
+
 ## TODO
 - single quote
 - semi colon
 ... in GraphQL
 
+Image in Markdown https://www.gatsbyjs.com/docs/working-with-images-in-markdown/
 
+Using theme
+https://www.gatsbyjs.com/tutorial/using-a-theme/
+
+starter
+https://www.gatsbyjs.com/starters/ehowey/gatsby-starter-catalyst
+https://www.gatsbyjs.com/starters/thriveweb/yellowcake
+https://tina-starter-grande.netlify.app/
+
+
+Why it is fast during development
+There is also a difference in the number of page queries that will run. gatsby develop will run at most 3 page queries (index page, actual 404 and develop 404) initially. The rest of the queries will run when they are needed (when the browser requests them). In contrast, gatsby build will run page queries for every page that doesn’t have cached and up to date results already.
+REF:
+https://www.gatsbyjs.com/docs/conceptual/overview-of-the-gatsby-build-process/
+
+workspace
+yarn workspace the-company-theme add gatsby-theme-catalyst-core gatsby-theme-catalyst-footer gatsby-theme-catalyst-header-top
+yarn workspace site add gatsby react react-dom the-company-theme@*
+
+yarn workspace site develop
+yarn workspace site build
