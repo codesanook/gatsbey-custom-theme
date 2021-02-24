@@ -85,6 +85,6 @@ yarn workspace site build
 
 #   
 [x] Clear your node_modules folder, clear your root yarn.lock file and reinstall all dependencies
-[ ] Check that you are on the same Gatsby versions across all your themes and sites, you can sometimes run into issues when you have multiple versions of the same package installed in a monorepo
+[x] Check that you are on the same Gatsby versions across all your themes and sites, you can sometimes run into issues when you have multiple versions of the same package installed in a monorepo
 [ ] Run yarn workspaces info and make sure you don't have any mismatched dependencies
 [ ] Copy and paste your root package.json where you have setup the workspaces
